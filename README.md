@@ -48,28 +48,17 @@
 
 Most likely you have played the most famous video game of the 80's. Here is a small sample, I hope this web application brings you good memories!
 
-## :sparkles: Features ##
+## :sparkles: Run web app! ##
 
-<a href="https://gibranalcazar.github.io/PacMen" target="_blank">Link to gibranalcazar.github.io/PacMen</a>
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+<brk>
+<a href="https://gibranalcazar.github.io/PacMen" target="_blank">Link to PacMen</a>
 
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Download to modify or contribute ##
 
 ```bash
 # Clone this project
@@ -78,13 +67,7 @@ $ git clone https://github.com/gibranalcazar/pacmen
 # Access
 $ cd pacmen
 
-# Install dependencies
-$ yarn
 
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
 ```
 
 ## :memo: License ##
