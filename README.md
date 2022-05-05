@@ -50,6 +50,7 @@ Most likely you have played the most famous video game of the 80's. Here is a sm
 
 ## :sparkles: Features ##
 
+<a href="https://gibranalcazar.github.io/PacMen" target="_blank">Link to gibranalcazar.github.io/PacMen</a>
 :heavy_check_mark: Feature 1;\
 :heavy_check_mark: Feature 2;\
 :heavy_check_mark: Feature 3;
