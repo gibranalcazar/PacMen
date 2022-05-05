@@ -5,8 +5,8 @@
     var posYMax = window.innerHeight -(pacWidth+20);
     var game = document.getElementById('game');
     const pacArray = [
-        ['PacMan1.png', 'PacMan2.png'],
-        ['PacMan3.png', 'PacMan4.png']
+        ['images/PacMan1.png', 'images/PacMan2.png'],
+        ['images/PacMan3.png', 'images/PacMan4.png']
     ];
     var direction = 0;
     const pacMen = []; // This array holds all the pacmen
