@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./PacMen1.jpg" alt="PacMen" />
+  <img src="images/PacMen1.jpg" alt="PacMen" />
 
   &#xa0;
 
@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-Describe your project
+Most likely you have played the most famous video game of the 80's. Here is a small sample, I hope this web application brings you good memories!
 
 ## :sparkles: Features ##
 
