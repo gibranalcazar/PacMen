@@ -41,7 +41,7 @@
         let game = document.getElementById('game');
         let newimg = document.createElement('img');
         newimg.style.position = 'absolute';
-        newimg.src = pacArray[Math.floor(Math.random() * 2)][0];
+        newimg.src = pacArray[Math.floor(Math.random() * 2)][Math.floor(Math.random() * 2)];
         newimg.width = pacWidth;
         // set position here 
         newimg.style.left = position.x + "px";
