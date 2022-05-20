@@ -52,6 +52,7 @@ Most likely you have played the most famous video game of the 80's. Here is a sm
 ## :sparkles: Features ##
 
 :heavy_check_mark: Distribute Pacmen according to browser screen dimensions\
+:heavy_check_mark: Add a ramdon image for Pacmen\
 :heavy_check_mark: Detect border collisions\
 :heavy_check_mark: Simulate Pacmen displacement and mouth movement
 
