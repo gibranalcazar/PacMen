@@ -34,7 +34,9 @@
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="https://gibranalcazar.github.io/PacMen/">Run!</a> &#xa0; | &#xa0;
+  <a href="#pencil2-roadmap">Roadmap</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
@@ -45,13 +47,28 @@
 
 ## :dart: About ##
 
-Most likely you have played the most famous video game of the 80's. Here is a small sample, I hope this web application brings you good memories!
+Most likely you have played the most famous video game of the 80's. Here is a small sample, I hope this web application brings you good memories! This project was developed as part of the Professional Certificate in coding: Full Stack Software Development by The Massachusetts Institute of Technology.
 
-## :sparkles: Run web app! ##
+## :sparkles: Features ##
+
+:heavy_check_mark: Distribute Pacmen according to browser screen dimensions\
+:heavy_check_mark: Detect border collisions\
+:heavy_check_mark: Simulate Pacmen displacement and mouth movement
+
+## :boom: Run web app! ##
+
+<brk>
 
 <brk>
 <a href="https://gibranalcazar.github.io/PacMen" target="_blank">Link to PacMen</a>
 
+## :pencil2: Roadmap ##
+
+The following are some possible improvements for this project:
+
+:star: Add sound to movements\
+:star: Add colored ghosts with movement\
+:star: Restart the app if there is a collision with a ghost
 
 ## :white_check_mark: Requirements ##
 
