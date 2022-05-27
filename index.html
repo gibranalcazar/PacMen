@@ -7,13 +7,22 @@
 
   <title>PacMen</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div id='game'>
-        <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-        <button onclick='update()' width='200' height='30'>Start Game</button>
+  <div class="container">
+    <div id="buttons">
+      <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
+      <button onclick='update()' width='200' height='30'>Start Game</button>
     </div>
+    
+    <div id='game'>
+        
+    </div>
+  </div>  
+
+
 
     <script src="./pacmen.js"></script>
 </body>
