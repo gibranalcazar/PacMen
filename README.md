@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="images/PacMen1.jpg" alt="PacMen" />
+  <img src="images/PacMen.jpg" alt="PacMen" />
 
   &#xa0;
 
