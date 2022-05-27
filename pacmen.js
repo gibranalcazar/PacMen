@@ -1,9 +1,16 @@
 
     var pacWidth = 100;
     var mouth = 0;
-    var posXMax = window.innerWidth - (pacWidth+10);
-    var posYMax = window.innerHeight -(pacWidth+20);
+    /* var posXMax = window.innerWidth - (pacWidth+20);
+    var posYMax = window.innerHeight -(pacWidth+20); */
+    var posXMax = window.innerWidth - window.innerWidth%100 - (2*pacWidth);
+    var posYMax = window.innerHeight - window.innerHeight%100 - (2*pacWidth);
+
     var game = document.getElementById('game');
+    game.style.height = (window.innerHeight - window.innerHeight%100 - pacWidth) +'px';
+    game.style.width = (window.innerWidth - window.innerWidth%100 - pacWidth) + 'px';
+    /* game.style.marginTop= Math.floor(window.innerHeight*0.05) +'px'; */
+    game.style.marginTop= '50px';
     const pacArray = [
         ['images/PacMan1.png', 'images/PacMan2.png'],
         ['images/PacMan3.png', 'images/PacMan4.png']
@@ -60,8 +67,12 @@
 
     function update() {
         //loop over pacmen array and move each one and move image in DOM
-        posXMax = window.innerWidth - (pacWidth+10);
-        posYMax = window.innerHeight -(pacWidth+20);
+        game.style.height = (window.innerHeight - window.innerHeight%100 - pacWidth) +'px';
+        game.style.width = (window.innerWidth - window.innerWidth%100 - pacWidth) + 'px';
+        posXMax = window.innerWidth - window.innerWidth%100 - (2*pacWidth);
+        posYMax = window.innerHeight - window.innerHeight%100 - (2*pacWidth);
+        /* console.log(posXMax);
+        console.log(posYMax); */
         pacMen.forEach((item) => {
             checkCollisions(item);
             item.position.x += item.velocity.x;
@@ -73,7 +84,7 @@
             if (item.velocity.x > 0){item.newimg.direction = 0};
             if (item.velocity.x < 0){item.newimg.direction = 1};         
             item.newimg.src = pacArray[item.newimg.direction][mouth];
-            console.log(item.src);
+            //console.log(item.src);
         })
         setTimeout(update, 20);
     }
@@ -89,7 +100,7 @@
         if (item.position.y >= (posYMax)) {
             item.velocity.y = -Math.abs(item.velocity.y);
         }
-        if (item.position.y <= (0 + 30)) {
+        if (item.position.y <= (0)) {
             item.velocity.y = Math.abs(item.velocity.y);
         }
     }
